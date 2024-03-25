@@ -1,11 +1,11 @@
-
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to Xpress Recruit</h1>
+    <div className="container mx-auto p-4">
+      <Navbar />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
