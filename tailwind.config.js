@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "light-grayish": "#f5f4f1"
+        "light-grayish": "#f5f4f1",
+        "sky-blue": "#d4eaf7"
       }
     },
   },
