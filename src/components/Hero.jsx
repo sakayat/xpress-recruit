@@ -1,7 +1,7 @@
-const Hero = () => {
-  const title = "Mastering React Development";
-  const subtitle =
-    "Discover Your Dream React Role Aligning with Your Expertise";
+const Hero = ({
+  title = "Mastering React Development",
+  subtitle = "Discover Your Dream React Role Aligning with Your Expertise",
+}) => {
   return (
     <section className="bg-sky-blue py-24 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
