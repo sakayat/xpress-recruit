@@ -1,0 +1,88 @@
+{
+    "jobs": [
+      {
+        "id": "7",
+        "title": "Full-Stack JavaScript Developer",
+        "type": "Full-Time",
+        "description": "We are seeking a talented Full-Stack Developer to join our team in Seattle, WA. The ideal candidate will have experience with Node.js, React, and MongoDB, and a strong understanding of web development best practices.",
+        "location": "Seattle, WA",
+        "salary": "$90K - $110K",
+        "company": {
+          "name": "Emerald Innovations",
+          "description": "Emerald Innovations is a dynamic technology company focused on building cutting-edge web and mobile applications. We offer a collaborative work environment, competitive compensation, and opportunities for professional growth.",
+          "contactEmail": "careers@emeraldinnovations.com",
+          "contactPhone": "555-555-5556"
+        }
+      },
+      {
+        "id": "8",
+        "title": "UI/UX Designer",
+        "type": "Full-Time",
+        "location": "San Francisco, CA",
+        "description": "Join our team as a UI/UX Designer in the heart of San Francisco, CA. We are looking for a creative and user-focused individual to help us design intuitive and visually appealing digital experiences.",
+        "salary": "$80K - $100K",
+        "company": {
+          "name": "Pixel Perfect",
+          "description": "Pixel Perfect is a design-driven agency specializing in web and mobile app development. We are committed to creating innovative and user-centric solutions that drive business success for our clients.",
+          "contactEmail": "design@pixelperfect.com",
+          "contactPhone": "555-555-5557"
+        }
+      },
+      {
+        "id": "9",
+        "title": "DevOps Engineer",
+        "type": "Full-Time",
+        "location": "Austin, TX",
+        "description": "Exciting opportunity for a DevOps Engineer in the vibrant city of Austin, TX. We are seeking a skilled and experienced individual to help us streamline our infrastructure and deployment processes.",
+        "salary": "$100K - $120K",
+        "company": {
+          "name": "Titan Technologies",
+          "description": "Titan Technologies is a leading provider of enterprise-level software solutions. We are committed to fostering a collaborative and innovative work environment where our employees can thrive.",
+          "contactEmail": "careers@titantechnologies.com",
+          "contactPhone": "555-555-5558"
+        }
+      },
+      {
+        "id": "10",
+        "title": "Data Scientist",
+        "type": "Full-Time",
+        "description": "Exciting opportunity for a Data Scientist in the heart of Chicago, IL. We are seeking a skilled individual with a passion for extracting insights from complex data sets and driving data-driven decision making.",
+        "location": "Chicago, IL",
+        "salary": "$110K - $130K",
+        "company": {
+          "name": "Insight Analytics",
+          "description": "Insight Analytics is a data-driven consulting firm helping businesses of all sizes unlock the power of their data. We offer a dynamic and challenging work environment where your analytical skills can make a real impact.",
+          "contactEmail": "careers@insightanalytics.com",
+          "contactPhone": "555-555-5559"
+        }
+      },
+      {
+        "id": "11",
+        "title": "Mobile App Developer (iOS & Android)",
+        "type": "Full-Time",
+        "location": "Denver, CO",
+        "description": "Join our team as a Mobile App Developer in the vibrant city of Denver, CO. We are looking for a skilled and versatile individual with experience in both iOS and Android development to help us build innovative mobile applications.",
+        "salary": "$90K - $110K",
+        "company": {
+          "name": "Appscape Solutions",
+          "description": "Appscape Solutions is a leading mobile app development company focused on creating user-friendly and high-performing applications. We offer a collaborative work environment, competitive compensation, and opportunities for professional growth.",
+          "contactEmail": "careers@appscapesolutions.com",
+          "contactPhone": "555-555-5560"
+        }
+      },
+      {
+        "id": "12",
+        "title": "Backend Engineer (Python & Django)",
+        "type": "Full-Time",
+        "description": "Exciting opportunity for a Backend Engineer in the vibrant city of Los Angeles, CA. We are seeking a skilled individual with experience in Python and Django to help us build scalable and secure web applications.",
+        "location": "Los Angeles, CA",
+        "salary": "$100K - $120K",
+        "company": {
+          "name": "Quantum Leap",
+          "description": "Quantum Leap is a fast-growing technology company specializing in web and mobile application development. We offer a dynamic and collaborative work environment where your technical skills can make a real impact.",
+          "contactEmail": "careers@quantumleap.com",
+          "contactPhone": "555-555-5561"
+        }
+      }
+    ]
+  }

@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full">
+    <nav className="fixed top-0 left-0 w-full z-20">
       <div className="bg-sky-blue border-b border-black">
         <div className="container mx-auto">
           <div className="flex h-20 items-center justify-between">
