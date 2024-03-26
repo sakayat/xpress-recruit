@@ -1,10 +1,20 @@
+import { useQuery } from "@tanstack/react-query";
+
 import SectionTitle from "./SectionTitle";
 import ListingCard from "./ListingCard";
 import { Link } from "react-router-dom";
-import data from "../db.json";
 
 const JobListings = ({ isHome = false }) => {
-  const jobListing = isHome ? data.jobs.slice(0, 3) : data.jobs;
+  
+  const { isLoading, data } = useQuery({
+    queryKey: ["list"],
+    queryFn: () =>
+      fetch("http://localhost:8080/jobs").then((res) => res.json()),
+  });
+
+  const jobListing = isHome ? data?.slice(0, 3) : data;
+
+  if (isLoading) return <p className="py-5 text-center text-2xl">Loading...</p>;
 
   return (
     <section className="flex flex-col gap-8 py-10">
