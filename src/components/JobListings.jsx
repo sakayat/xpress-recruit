@@ -10,7 +10,7 @@ const JobListings = ({ isHome = false }) => {
   const { isLoading, data } = useQuery({
     queryKey: ["list"],
     queryFn: () =>
-      fetch("http://localhost:8080/jobs").then((res) => res.json()),
+      fetch("/api/jobs").then((res) => res.json()),
   });
 
   const jobListing = isHome ? data?.slice(0, 3) : data;
