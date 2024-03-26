@@ -1,16 +1,19 @@
-import Features from "./components/Features";
-import Hero from "./components/Hero";
-import JobListings from "./components/JobListings";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
+import HomePage from "./pages/HomePage";
+import JobPage from "./pages/JobPage";
+import AddJobsPage from "./pages/AddJobsPage";
+
 const App = () => {
-  
   return (
     <div className="container mx-auto">
       <Navbar />
-      <Hero />
-      <Features />
-      <JobListings />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/jobs" element={<JobPage />} />
+        <Route path="/add-job" element={<AddJobsPage />} />
+      </Routes>
     </div>
   );
 };
