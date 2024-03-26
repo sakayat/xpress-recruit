@@ -32,7 +32,7 @@ const ListingCard = ({ item }) => {
             <div className="border border-gray-100 mb-5">{item.location}</div>
           </div>
           <Link
-            to={`/jobs`}
+            to={`/job/${item.id}`}
             className="h-[36px] bg-black hover:bg-gray-700 text-white px-4 py-2 rounded-md text-center text-sm"
           >
             Read More
