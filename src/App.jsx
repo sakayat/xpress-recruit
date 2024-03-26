@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import JobPage from "./pages/JobPage";
 import AddJobsPage from "./pages/AddJobsPage";
+import NoFoundPage from "./pages/NoFoundPage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/jobs" element={<JobPage />} />
         <Route path="/add-job" element={<AddJobsPage />} />
+        <Route path="*" element={<NoFoundPage />} />
       </Routes>
     </div>
   );
