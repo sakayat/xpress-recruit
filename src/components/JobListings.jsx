@@ -6,16 +6,14 @@ import { Link } from "react-router-dom";
 import Spinner from "./Spinner";
 
 const JobListings = ({ isHome = false }) => {
-
   const { isLoading, data } = useQuery({
     queryKey: ["list"],
-    queryFn: () =>
-      fetch("/api/jobs").then((res) => res.json()),
+    queryFn: () => fetch("/api/jobs").then((res) => res.json()),
   });
 
   const jobListing = isHome ? data?.slice(0, 3) : data;
 
-  if (isLoading) return <Spinner isLoading={isLoading}/>
+  if (isLoading) return <Spinner isLoading={isLoading} />;
 
   return (
     <section className="flex flex-col gap-8 py-10">
@@ -27,12 +25,14 @@ const JobListings = ({ isHome = false }) => {
           ))}
         </div>
       </div>
-      <Link
-        to="/jobs"
-        className="bg-black text-white py-4 w-96 mx-auto text-center rounded-md"
-      >
-        View All Jobs
-      </Link>
+      {isHome && (
+        <Link
+          to="/jobs"
+          className="bg-black text-white py-4 w-96 mx-auto text-center rounded-md"
+        >
+          View All Jobs
+        </Link>
+      )}
     </section>
   );
 };
