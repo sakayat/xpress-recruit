@@ -39,13 +39,6 @@ const ListingCard = ({ item }) => {
           </Link>
         </div>
       </div>
-
-      
-     
-
-    
-
-
     </div>
   );
 };

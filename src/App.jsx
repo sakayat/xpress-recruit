@@ -6,6 +6,7 @@ import AddJobsPage from "./pages/AddJobsPage";
 import NoFoundPage from "./pages/NoFoundPage";
 import AllJobPostPage from "./pages/AllJobPostPage";
 import JobPage from "./pages/JobPage";
+import EditJobPage from "./pages/EditJobPage";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/jobs" element={<AllJobPostPage />} />
         <Route path="/job/:id" element={<JobPage />} />
         <Route path="/add-job" element={<AddJobsPage />} />
+        <Route path="/edit-job/:id" element={<EditJobPage />} />
         <Route path="*" element={<NoFoundPage />} />
       </Routes>
     </div>
