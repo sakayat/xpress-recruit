@@ -85,69 +85,18 @@
       }
     },
     {
-      "id": 1711494177532,
-      "title": "dd",
-      "location": "ee",
-      "description": "ee",
-      "salary": "Under $50K",
-      "companyName": "ee",
-      "companyDescription": "eee",
-      "contactEmail": "eee@g",
-      "contactPhone": "33"
-    },
-    {
-      "id": "1711494378051",
-      "title": "htr",
-      "location": "gg",
-      "description": "gge",
-      "salary": "$50K - 60K",
-      "company": {
-        "name": "rr",
-        "description": "rr",
-        "contactEmail": "rr@g",
-        "contactPhone": "45"
-      }
-    },
-    {
-      "id": "1711511883703",
-      "title": "hero",
-      "location": "hello",
-      "description": "hero",
-      "salary": "$50K - 60K",
-      "company": {
-        "name": "hello",
-        "description": "hello",
-        "contactEmail": "hello@g",
-        "contactPhone": "0994848"
-      }
-    },
-    {
-      "id": "1711515231937",
-      "type": "Part-Time",
-      "title": "hello2",
-      "location": "hello2",
-      "description": "hello2",
-      "salary": "$60K - 70K",
-      "company": {
-        "name": "hello2",
-        "description": "hello2",
-        "contactEmail": "hello@g",
-        "contactPhone": "99495"
-      }
-    },
-    {
-      "title": "hello999",
-      "type": "Internship",
+      "id": "1711524133071",
+      "type": "Full-Time",
+      "title": "hello",
       "location": "hello",
       "description": "hello",
-      "salary": "$70K - 80K",
+      "salary": "Under $50K",
       "company": {
         "name": "hello",
         "description": "hello",
-        "contactEmail": "hello@g",
-        "contactPhone": "45667777"
-      },
-      "id": "1711522270646"
+        "contactEmail": "hello4@g",
+        "contactPhone": "44555"
+      }
     }
   ]
 }

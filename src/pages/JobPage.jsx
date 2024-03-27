@@ -3,9 +3,12 @@ import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { MoveLeft } from "lucide-react";
 import Spinner from "../components/Spinner";
+import { useNavigate } from "react-router-dom";
 
 const JobPage = () => {
   const { id } = useParams();
+
+  const navigate = useNavigate();
 
   const { isLoading, data } = useQuery({
     queryKey: ["item"],
@@ -13,6 +16,16 @@ const JobPage = () => {
   });
 
   if (isLoading) return <Spinner isLoading={isLoading} />;
+
+  const handleDelete = async (id) => {
+    const res = await fetch(`/api/jobs/${id}`, {
+      method: "delete",
+    });
+
+    if (res.ok) {
+      return navigate("/jobs");
+    }
+  };
 
   return (
     <div className="mt-24 px-4">
@@ -72,7 +85,7 @@ const JobPage = () => {
                   Edit Job
                 </Link>
                 <button
-                  onClick={() => onDeleteClick(data?.id)}
+                  onClick={() => handleDelete(data?.id)}
                   className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >
                   Delete Job
